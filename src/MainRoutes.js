@@ -21,17 +21,17 @@ const MainRoutes = () => {
     {
       link: "/aboutus",
       element: <AboutUsPage />,
-      id: 2,
+      id: 3,
     },
     {
       link: "/auth",
       element: <AuthPage />,
-      id: 3,
+      id: 4,
     },
     {
       link: "/products",
       element: <ProductsPage />,
-      id: 4,
+      id: 2,
     },
     {
       link: "/products/:id",
