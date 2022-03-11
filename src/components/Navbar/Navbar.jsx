@@ -14,6 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from "../../assetcs/logo/JaneL.svg"
 import style from "../Navbar/Navbar.module.css"
 import { Link, useNavigate } from 'react-router-dom';
+import { ADMIN } from '../../helpers/const';
+import { useAuth } from '../../contexts/AuthContext';
 
 
 
@@ -27,6 +29,11 @@ const pages = [
 
 
 const Navbar = () => {
+    const {
+        handleLogout,
+        user: { email },
+      } = useAuth();
+
     const navigate=useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   
@@ -96,6 +103,13 @@ const Navbar = () => {
                   </Link>
                 </MenuItem>
               ))}
+              {email == ADMIN ? (
+                <MenuItem>
+                  <Link to="/admin">
+                    <Typography textAlign="center">Панель Админа </Typography>
+                  </Link>
+                </MenuItem>
+              ) : null}
             </Menu>
           </Box >
           <Typography
@@ -118,11 +132,45 @@ const Navbar = () => {
               </Button>
               </Link>
             ))}
+
+            {email == ADMIN ? (
+              <Link to="/admin">
+                <Button 
+                sx={{ my: 2, color: "white", display: "block", fontSize: 10,fontStyle: 'italic' }}
+                >
+                  Панель Админа
+                </Button>
+              </Link>
+            ) : null}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
-            
-          </Box>
+          <Typography variant="h5">
+            {email ? (
+              <Link to="/">
+                <Button
+                  className="page-btn"
+                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10,fontStyle: 'italic' }}
+                  onClick={handleLogout}
+                >
+                  Выйти
+                </Button>
+              </Link>
+            ) : null}
+
+            {email ? null : (
+              <Link to="/auth">
+                <Button
+                  
+                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10,fontStyle: 'italic' }}
+                  onClick={handleLogout}
+                >
+                  Войти
+                </Button>
+              </Link>
+            )}
+          </Typography>
+
+          
         </Toolbar>
       </Container>
     </AppBar>
