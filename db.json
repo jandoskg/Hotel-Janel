@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "name": "Апартамент №1",
+      "description": "dcsfvg",
+      "price": "500",
+      "picture": "https://www.topdom.ru/uploaded/article/interior-guest-room/1.jpg",
+      "type": "двухместный",
+      "id": 1
+    },
+    {
+      "name": "Апартамент №2",
+      "description": "",
+      "price": 500,
+      "picture": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgWFhYYGBgaHBoYGhgaGBgaHBoYHB4cGhgYGhgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHBISHjQhISExNDE0NDQ0NDQ0NDQ0NDQ0NDQxNDQxNDQxNDExNDE0MTQ0NDQ0NDQ0NzE/QDQxNDU0N//AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EAEEQAAECAwQHBQUGBAcBAQAAAAEAAgMRIQQSMUEFIlFhcYGRBjKhscETQlJy0RQjYpLh8DOCorIHFSTC0uLxYzT/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACIRAQEAAgICAgMBAQAAAAAAAAABAhEhMQMSQVEEMmFCcf/aAAwDAQACEQMRAD8AHRtGRWd5hI4Xh4TVIwGjItP4SR4LWPsVph5PkN14dVWdaiTKJDY7lI+P1UayncaSxn2hwweDuePUfRPD3DFjuLCHDoK+CO/ZbM/Fr4Z3VHjNL/IA7+HGY7caHwJS3FaA2WkEyDhPYdU9CrECPELrrCQeNOquWnQkYd5l8bpO8MVX0fo6UZneZIgyrIyykdomj2Hq4dIR24ucpWaUiZ1V3SdlAN4f+IcyGHCbTMVHTFTuUWa4XIWkCVdhku4IM+FIT2LjdKOh58j9VWkjb9HtdiJcFWOjXsqxx4foVSZ2p2snvBUrO0wPuyS1RwsttT2Ue2e8U8FZh2tjs5HYaKidNB2IUD7Ux3uo0WxkxBtTfahB2xBk4jikYzhLfmMEtDYv7UJpiIWIzsyBzThFGbuiNARMRRutTRn0qqgiM48SpGxmbktJukjrWcmkppfFdgA1L7WwZhONqEphCLlr4MFje7vPPU+ikZYGDEzUX2me5VojyTieSC9sr/BZkFgwaPPzUwujMBAWh2XiSq7rc0Ei/Mgyk1pcQeSVjLLx23mtG6MwZqrEtTcgShTbQ44MefmLWDzn4LkT2hyY3iXPPol6xeHj18rFot9Q0FoJnITqZYykgdo0wwOILyeDTLqhHaC0vESRdMtGIF2V6ppPehz3509KrXHFu0ETSzPdm6k8Zb9klS/zh5dJrWDkSaCZxO5CYRMzU7ORXYirQ2Iu0u9xDS4NrIkXqbTXDoUOiOJNSSdpxTYTapzgiiCdnY4tEnECsgMqpK7own2bf5v7iupch7sAsx2whgGG+WUQT5wyPAFaoNWf7Zw/uWHY8jqx/qAurLmOfGasWLH2cgRITHi+xz2NcS15lMgE6rpjHcoo3ZE+5FB3PYD/AFNI8kT7Ixi+yQiRKTS3jdJAPgjd1ZcL9speGHfoC0s7knbmPl/S+QVKHfJk8ydeLA10gbzcRQ1xyXoklhtJC7am7rSej4d70UXCVph5MudqFsgAMftuuykMDtqUJ0BJzHZye4eDStrpqHO8NoWE7LOpFGx4PUH6Kc/H6zUXjn7ciNtsd9jmhsyRht6rHaSslx4aQR3hd/FSVDhmvQmio4rK9oIX3/8AMfFs1njuNNTKsXfLTQkTlOUvVSG2FpNQ8YAmniAuWtknEbPqqr26vNbzpllOaO2e1sLQS4NOYJFOqvB0lS0LZ2RIRDwDJx8mn1RUwgBIASFAMhyU0IfaJe2Ka+FyTGw95SDr7SRtVSJpQDMDmE3SMB9XB8mhp1ZTJMp4lZrPqiQqPv0uPj6CataMeYocbzhdIHGYnhyWXBJnVaDsw4ycJ5ifRyLwGhg2Qbz/AOq39kcGG63WrIOJka08FbssJEXMFKTWVvLLLIHsFmfJ1+7OdA0SA+qmh2AgSnPeevqiUjw6LiVmSccpVZliCjfYAT3gOAJV5gVcMa6LJ3wmQm6pmMgap443K6R5cvXG5fSpa4DGMcQ5xMqTkB9VQg2SIRfYZibiW7ACRUYHBH9LQWNgPutaDSoaJ4jOU13RbyLNhlE/uetLhceNp8fnlx3ft5b2lfetDyJCraDCjGiioPCsaXM4r/mI6U9FA9VOnTK5BSip0DNNipL+DYQTzimwgnZoojT6Jh/dN5nqSUlcsMMCGwbGjySQHtgYg/aqFOznc+Gerg0+DijoYqHaFk7NF3NvflId6Lo2yk5UuwT52Ng+Fzx/VP8A3LSSWT/w7d9xEZ8MVw6gfQrXrParDJLDdpRdtDj/APSzv6tcxbySxXbFsojz/wDOE/8AJFM/AolOQQ0szA7Qf34rzjs9qxrQ3YWnoSPVemW9s4bDtHmAvNdHattjt2hx6PH1T8nMHjaLPogHaFn3v8zD4SR8egQXtM3XB3MPj+ixs4b49sLpRknv5qiRqlFNON+8PD0QyVCtMeonL9qPdl3TDx8p6zHojT2oD2WdrvH4Z9D+q0TwovaVNzU0MVh7UxrUBUt7Pu3/ACO8isZKq3Fub92/5XeSxAx6pwqTRQo/2WHe5f7kBbgUf7LYu4t/3JZdFW8soVp+XFVbJgFZeajistcsMqc6m9cGKmcBtKgLa02+iqpxk7PhjyUVmYx0VzX4XBI5gznMb6J9nNRwTtFz9u+Uu43He4ok5TnbrhX0y8tgvY6tRJ8sQDnsKl0ZF/0kpHuvrKmLlL2iJ9g/WBE20GRmqdiDm2YVmHNdhkSXUP1VXrlOP6zX28qtxnEf87v7imRE6PV53uJ6lceFTrjkFNihSQcFFEKS/h2FgkuwcFxFNurONUcAknQRqhJBPbQFW0lCvQYjfiY8dWlXQFxzZ0WrPTEf4eRTftLaXS5r55zdPwkt0vP+wRu2mMzbDYebbrT5legJVdJZHtqyo/FBjD8pY4eq1yzvauHP2W/2jPzMJ/2ogh5N6zwjuHkvNZXdIvHxMd5By9E0Wb1ihHcPVed6bJZpBhaAScATKdCMcsE70MeK0LMOv1QjtLgD+DyJReFv/cwhvaATYzg4eX1Wem07YrtA3XadrfqgzfRHO0Ancdu/fmgcMp4/qXk/aifZh33strD5grVPWP7POlGaNt4f0n6LYuU5IQPC40Jz01qQQ24aj/ld5FYUCq3dvH3b/kd5FYXPkU8RSYNUo92Yxd/J5uQFvdR7sxi7+T+4oy6Tem8shoFegwr72t2n0Ko2Tu9PRFLAPvWfN6FRjOXP/p212UsnrNpL3tyrQzN44+i1QaLzqDEf2lCrO0G0n5/JrlpljrppcYF2RhJAkTQZHYorGxxtD7sJzwGNvXZzbV0qckU0VV43AeDZK72SH+oj/JD/ALoiUxRcJlxQbtH/APmB9k5geRJxu1lMylMkc1BYoo+yS1QQx3eJBdImdyYk47gVoP8AET+Az5vRMtEhonAUs4POWPGpRrdaY+PHHGR4I4VCUROd3gmxVSzoQooIhViHgq0RSZ8MUT4Im5o2kDxTWYKSy99nzN8wg/htmrq40LqEvcGOmARmJpxQzQFrD7NAfPvQoZ53RNXjFG0LTVKsJoA3NJvb8QjN/LEcR4NXoK89LrmlmHIvePzMn5vXoF8bUWDZyAdo2H7skzHtWUlhMFpr/Mjt8bUA7VPHs2ms2ua6cqd5sxPbRI52g7NVsYb8Li3oVhO1Qu22A7e0f1FbjsxEAZGYcor/AO4/RYnt1SLBdsd5Fv1V2cCXkaGI/eckP003UbuLvT6K+ThzVTTA1P5h4hyzabYjT3chnd9JoAw1Wg03WCw7HOHifos/mjHpXk7WdEOlHZ88utPVbZywlidKMw/jafELdOSrNG5ManPTAVJorf8Aw4nyO8isMceRW6t38N/yu8isKceRTxKk3u80e7M4u/l8ygINOaOdmjV3AeaMuk3pvrJ3enoiuj/4rPm+qF2Tu9ESstHtO9TOOXPOc4Pvid8/vuoZY3f6hx/GfIqxFfR/7yVKzd9x/E7yKq+TfTpyx12i0W+TzwKisGmxZ40Qht+81gkCJgNc8vIFS6QyA4yopNGDXd+81mNJ6Md7R9x0mktJJvFzSZum0NEzRjyeE8QEva6RjjzB3tJ2kZamNZDY661xm8yAvChbLOhBnsKdF0gH6LiAE/dwrhmJCYAwOBxWYGj3ww15PfbeLfeYb7mydMT1ix5Fcnc9HpWA2Hot5DZF0JhdlNxu14yKXt01kvy8jd3gmxSkTrJkVy0SmhnVVd6naaKs8qRUzTqqawViM+YeagBoFLYB96z5ggr03DUkxpSQTddjbTOxQNzS38riPRHParH9gY/+laPhe8evqtlZWscKznxktZ+X4fb1+Yzvizt3GO02+7bYT/xw3HnJvlDW19sdqyHbSzARGyOLWzkai65+f84WyDIQA1icKz27ZKr58JzehcMr0jEU7UM0xaC6FEaWuoJzypUceSs2vSEJpIbecaVFRl+qjtUWG+G8C8CWOAriZHZlVZX8zw2+sqsfHlLuqGhH69obtcHD+YT9VmO37dVjtjvOR9Fo9COHtXk+8yEed0V6hCO38H7mf4p+BV3OdfK/W72nYZtB3A+AUelBOEdxafMeq7YTOGw7WNPguW4ThP4NP9QS0qVhdK/wDue76+qzpNVodJHUiD8YPUBZomqnGai87uxM10ng7wVvXleeRHV5LdPjSZey/SfkpyQe8poKqwopdUFpaagTIdLmJHLNde5493zS0DtIvlCf8jvJYhxr1Wqt0ZxhvBlK4duKyTnV6p4laeDRG+zx7/yjzQIHVRnQDqv+X1To+HotjNOaJ2bvt+YeaA2a1XWhWn6RDROR5JaljmvtjlvW2kimjuIVSA7Wefm8v1QZmkQZYifFOFuA21SmH9aZea2zii2im6z+SCaT0xFsxe6Hd1rodeaHCQvyAnhi7qnjSQYazrsQvS1qZGYWt1XTFTOUhPZxTuJ4525Sa1oNsFue9rmOM2i4RQT1TICeMtZ1PxFa/tTFDdGFpcJmHDAbMTNWZYlY6w2QsJm9snAD3piRnSYCh03BZ7JxD3ucAJCTQ3EbyUeu9fxrc9X/AKygOsmRCk01THmqolkGirPKnnRQPNUCpiVPowffM4nwaSq5VrQzZxmcz4FSK2YSXQkhIn/h5E+6e3Y8HqP+q2TJuwxOC807DRXkxGsng11DLCYnjvRfTlujQgwgzvEjWc50pSIz4rK/i7yuVVMoPdo4J1L2xw8WH0Ug0kwNAMRk7o1bwvb6A7V57adJxHAgulMEarWjxlNVLM5rhK81tZ1913nIo8v4+OeMx30JXpD9IMOTicaNcBwJLRNV42mmggmQlSTnMaJGUxK8T4LFQjKjmNeBscRLxkrLPZ5MA4zPmVOH4Xin3T9q01h01CaQWvJfcaxwa1zxJppg3xVDT2mDGaWGGbs+9ebPZ3ATTiQhoiXtXI0G4nAjZWU1TLt667cd71yUlaLs9bw8CHL+G1oLie9lhkr1sjtax94yBEvEH0Wb0I6T3y+GfMEfVEbc+8w7wn7cJ1yymlY7DfDXAzkeCzZOCJaSF153hC3lTF2nRCtcyJOB+XxYVjohoFp7E+cE8Gf2uU5fAhmh4veYcjMcDl1HiixebrZHa6h5f7SgEOE9jw+RLcHAfCceYkDyRe0RQCJVoAJYGmXGpTFTudNrr+s0i7I1nOuPAHwWO0pYzCfdxaRNp2g5HeMFp40eUmgFxzArrHET6Dkqluhe1YGua4EEkO1ekssT1SiWZBoi+gnVdwHmoomhXtpeB4z5YT3KawWZ8Nzr7ZUAnkinGxhOoFI8qpZ4lApy9SNJ2rhNUmFcLqpjRsTJQMYJqaK5RwzVA0nDBJC9PtHsX8v7gis6IXp/+A/gP7grHyw7DVRuxTm4lMnVIVYJooc1K4qEYoNM4q/2fH3w+U+iHEor2b/iH5fUKSrWhJcSQWme7PRS17gDKbSOhCKW9xIE9qB6Ef8A6gDbe8WkrQaSGrzWt6KdhkVwAQ9r9ZXHu80Pjuz3qcVUcY9s5gOyrelzwU7Yrc2n8/8A1QmzPLhjTJWmO4pWGIwbjnAAvBnsa4cZzFFHaaPOwmY3tNQUx5uC775Gsdg+Djt6bV1r77CM2TcPl94cqHqgLOjHgPJ3S6yPor0QoMyJcaDOpMxwbP1n+VExFDmhwzSpMhpsyiS/D6lCHlFe0J+95IQ4pw3Xmi0WhLUAy85peAWzaM5Xh+qzT8ET0I+d9k/hI6mfmEspwUvLXxbSyIb10hgkADQlxyNKZ8goYbg0zAEiJSl7pxA670OEctBGQmJfvPfuUgiXTjSQk78O7finOjvIi+AQSLoOwylMZGmKkfZs3NIJ3yPFQNt9xjLxIeQSCJEtZkBMj3r1cpb12FFEu+J/iBBma5TGe1P1LSwIO/DCYnTYl7Ebv6sOab7R2y9tukO/tmlCtILpGgFSdgFSU/VOqeLNLIrvsjv8lH/mXw6o3T8Tif3gpIlrBAcM6O3O+hFeqPUtZJGF4GE+Ammua4EUnL91GRUTLVv8U77U3MA+B8PWaXqN5ORC45eK4wyx8wpGvDu4ST8OfKXe/dFEYDji2mynXGaNQt5JftAkP0r4qnpR4dCeJ1LTTeK+iliQy0UBlwOOwjPigtuj1xLTUcMPCmCDlZluJTRik983E7arjTVJadxUTTVOvJjDVASkop2d/iE/hPmEIJR/szD7zt4HSf1SptMEkgkkTG6JfKPDO8DzC1FvM2lY2xRJPhnY9vmFr7WZtPArX4KAr3qjHerDGlxlgMzsVuFZGbJ73fTBRODs2raLj+7x+qJQolzWnrmrRsHxHfs67E1miyJRGlouuEmkUccZUyA/dV19iiPJJLZk4kk+Eqnin2HPaUTYFpuvvYgAiQqTMESHXwVuBoiuu4u3YAdJIpAskMAC4GkUvSmDWesMZ768E9UAkRjnmbAcgGvAEgMJEEopY9HPay+4umSGgCYGZJrjiOpV32TmihptbIDq31XGlwzP14g4o9fscB9q0JDiG89pntv3fCaHx+ybD3Yjm7iA8dQB5rQ3hm0cpj9B0XdU4GW51f6h9E9BjYvZWKMHscOLgel2XimM0PFYSPZOlk4Frp8gZjoto5h4zwlUT2Uz3Llw5yHE16YpXEMY4OZqvBblNwIB5lW4D70x7mbqSbvrTlmtVeaBhe3GjeYxPgq1q0dBe1rjCYJzBu3mVB/CdhajQ2BxJudflqSkDiLooKjA0w3pOj0kM68tqvu0QwdyJEZOhAc1wlslIHxUH+UvmT7Rh2TY5ng0uHgiDZgkMf1JOACd9rJ1KuvVcZ91vutYeU/3NMiaHj96bHDMh/QGmrzUTLHGbMNZU4vvNJO2VaBUNpLTqENxzntGUlxsYNk10wHCu2funl5TTHse2jmPLRWYYSZ7pZbVWY5z4gLmypQEENFcSTkEhteax7n3AKjvbuJ3eimaWNq517c0ybzfny6qo+3Nim5eLGA6z6SeRQF1Jnx4KOVbzpNYKB2IMsm7SmF99rfLEBsxqASafmHvc9i7FeJXm900l8J+E+hzG8FDHxy6RlJs9UZna4p7I8jI1Bo4bR9diAsOtjmgyJBNKGWKB6StMqTJcfCmZV63EsJArWh3HA9JFCPsd4kkmcyZ0zWeXYVEmq+zR0/ePRSHRQyJH72KdwaobNIK6/RjxhI8KeagiQHN7zSOI9U9gwlans5DPsxhUuzHksswToi1lc9gAuggbksro5NtfcOzxCSzP2p/wf3fVJR7H60ChOkQdhB6FbV7bwPDaABzNFhWlaoaRgXR34hIBuikjhIrfaIol9BvqZUrgabv3ipXPl4KgH1I2nxU8N86biEj2MstWozjE66v6KSFGcSAJk7sdqDWZxIInICszkJSPkOitutfusF0f1H5js3CiIY9DtDR3jM/C3Li7DpNTNtYyAHifGngs5DjSViHHVTID7LUcjLKgAUjCH4XQ7YQJHgZUO7psQRlpU7YvU4BPZaEHP5cgD0XL52lPfHaWzfrPBuktIGIMg4kG8RI18VB9ph/C/8AOP8AggaTwosjrE3TR3A58RjyUUdtxxa7Iy/8TH2qGPcd+cf8FajxA5gewAgBrXXtZzSKC9kRvkgtKl/YFYiMcYbKHF5oD+FV/tLviI4U8Ak20OAleMthqOhQNFKWRnvBTmQnHBp4yMuqeIzSKzYdrSSDxbOY5Hkoy1xme8BUydOm2Rr4IDrQ5ppQ7Q4ec090VhmHEAj3m4HcWjHiJc1WY8TExNsxPhnIqS0sDHluMqg7WmrT0IQHbNH+JpA26pP5TSXjvClferK6W7Q1svQhUH2rZ4KJlocDOZB6g7pbErT0dHskNxvPY2eF5oumXEIdHsDmgvhvY8D3IlJbmgapJyJl5K5arW1pmMCA4TyByrsMwgrI0WM43JNhgmvxGdJbsP3gt6GlQaTbW+HB4rUUmJi7TDoJSTrNaWk45z3q5GYHOvOaS4gNvYhzhi7uynTD6IY+zNJ1RQE1wrxJ81Fz1R60QtMS8Gj9y2dSeq5ChoVaBOTQcMNonXHpwToZiNldcep/UJW75Euh1kNTNhoO3SEVoqQ6sqgGe3AhWWaYI7zByJHgR6qNH7QRENO9mqjNLwzjebxH0Ksst0I4Pbzp5paPcdEIDIdFK2Gnw3A4EHgZqwxqFKvsBs8Elau7kkE8+LCrljL2ODwCBSeTTum6QReKYbBdY0TPvDEbw44qhGsTnazX3zsJ1+hx5LbnXTPiVFaYrb7i06pcSDUY1UvtZm9nnxz6oZaHYh0wRgMuibDjy3jx5Jwtj0VxY0Fp1nScdzcgeM8OCTYrXAe4TStWn/iqQtIcTmCf/FwmSD2vOBaa0/eIOa6HkKGDaJCRq3YfMHIpCtWk8DiB6oNcZGoiMK1XADOTnDH4WnIbCfLig9nN4yOAqeAqUnRC5xKJTG2Wn7t0viaeRDgohEVGzPMnt2tnzbreU0xr09gRhxJnmrFmtRYbwrkQcC04goVDfgpGxUAXtLA2T2mbHYbnfAd6hEcikuX1TLFamtmH1a7EbDk4bwmvh3CbxpiD8YNRLcmFn20hM0/eSj9sDjh+6TVaDJ7iXvuCWrQncAAP3RWGmztziOlsDQDtNUbDroynjxL8Njji2bDwGsw9CRyVf20D4Yg4Fp8FZsrYLpsD3i9dkHNE5g5HCoJHNKlpTYCTqi8dmPgmWlr2NLnNLWjaJdAaqa1W+4CxjfZgTvV1z8zsuAQaDDdEN95dcqWtJMzvKX9NE2cZwe6jBRo+KRPhvROGJYAADylkon5ZYSUrT6KMrs4G+2qWSmCXaoNZzMi0T+mdVYZAiRXXWAkfFekGhuJAvAgVAkdwGcrlihXGvL8nX2tImHzMrkjngOaIWODJpewEF07wb3aTusaCMBPZLE5rLLKKmNVXaGhkNaNRwoQ8SvnbfbQzJ3psTs/CJk28x8sZtLZ8Zg7ESsz4hqDKVLrgAOMmgVwxTLdbnEFl0B4rR4pvBpks5lTuLP2vQURpmJuaBkLw3jP9yVC2aPiMlMCpuCRAM5TIuz2ei1NmiRHSnEqJm4SGl2wB2DhzQiJBMR7mmIxpqy49t4k+84TIGIGB91aY5XaMsZAB0MiYcx1KTIII2AzFOCcx5a2V1hbXETI5rUWeyBjZPe4vFA69ObaXQAd8seqq2zRzHSvPaw/iYBMyzBcJ8k/eW6T6WTbPNImJOPSvJWftjhIMfEGNC4ylLjtVizQmOe4OAAbQPZMHDHWmFVtMEtLccCay3bMcU9y3SdWTYxZLdFLBrE4+ZSXNHM+7bz8ykkNpbrCXwwBOGJkgESxlXM9ULtEA1umYGeEkklWGVXnJpSiun3tbjj1Vc2adWnkfqkkt6yisCQdhVmHa9vVJJIRZY9TMcQZgyIzSSSXFtzpNJkBelh8NcspkeCha5JJBrFmiXXB2w14Z+C68XXEbCR0SSQZNfVJrqpJIBwi1V6BG9oLrsQDc3ZlvA15riSYcgPDmPpJzNaf4aNI9QoWumuJIBwNV2+upJA60kxJONZAB08yDqk7aS6LsJ3l9UklNCCK+V0pli0jDc1znuuNButIDiTIA1AGBnuK4kps4L5Tw9N3n3rjSALrS2YxnrXXZypU0E9qs2LSk9VsSs6za7VE6ybh4pJLLPGLxyopEhATiAk08Ts8FE2JDeatILqbzz+q6ksmsMtdt9iwAtGAAnUTcZNnKdKgnmhZg+yZfMISDqGYIvN7zxMkznWcgROiSS28fTDydnwXPLXAGjayo8AGoo6RM8aOHJV49hiPZIRbwBMmFspkSmA6ZumoOzekkq1ynfDmiHC45oa17wC4iQBu7bzqUngqmlrQ1zhdEgGgS2VOwDYkkp/0f+BfRY+6bz8ykkkml/9k=",
+      "type": "двухместный",
+      "id": 2
+    },
+    {
+      "name": "Апартамент №3",
+      "description": "",
+      "price": 1000,
+      "picture": "https://www.ozeroponti.ru/upload/iblock/221/221a2d3d3c6404a0ec181923a7b591d5.jpg",
+      "type": "трехместный",
+      "id": 3
+    },
+    {
+      "name": "Апартамент №4",
+      "description": "",
+      "price": 1500,
+      "picture": "https://s3.eu-west-3.amazonaws.com/images.bratislava.com.ua/uploadimage/cfc2e2b13ecd4dbca278f41c9469fc19.jpg",
+      "type": "трехместный",
+      "id": 4
+    },
+    {
+      "name": "Апартамент №5",
+      "description": "",
+      "price": 1500,
+      "picture": "https://moenebo.com/upload/iblock/db5/db540ae65d33917bd22ddb6c7650b555.jpg",
+      "type": "трехместный",
+      "id": 5
+    },
+    {
+      "name": "Апартамент №6",
+      "description": "",
+      "price": 1500,
+      "picture": "https://www.hotelassenzioprague.com/files/hotel/hotel-b/02-rooms/triple/Triple_room_1.jpg",
+      "type": "трехместный",
+      "id": 6
+    },
+    {
+      "name": "Апартамент №7",
+      "description": "",
+      "price": 2000,
+      "picture": "https://hotel-yamskoy.ru/upload/iblock/94a/94a1e497abbdae1ff15d28cd0b07b853.jpg",
+      "type": "трехместный",
+      "id": 7
+    },
+    {
+      "name": "Апартамент №8",
+      "description": "",
+      "price": 4000,
+      "picture": "https://mayak77.ru/wp-content/uploads/2019/07/IQ6A4663-HDR-Edit.jpg",
+      "type": "трехместный",
+      "id": 8
+    },
+    {
+      "name": "Апартамент №9",
+      "description": "",
+      "price": 3000,
+      "picture": "https://ladoga10.ru/images/rooms/3/14_800x600.jpg",
+      "type": "трехместный",
+      "id": 9
+    },
+    {
+      "name": "Апартамент №10",
+      "description": "",
+      "price": 3000,
+      "picture": "https://uz.all.biz/img/uz/service_catalog/26139.jpeg",
+      "type": "трехместный",
+      "id": 10
+    },
+    {
+      "name": "Апартамент №11",
+      "description": "",
+      "price": 4000,
+      "picture": "https://moenebo.com/upload/iblock/98b/98b8c531789dd3d15ea2cc22c8c948de.jpg",
+      "type": "четырехместный",
+      "id": 11
+    },
+    {
+      "name": "Апартамент №12",
+      "description": "",
+      "price": 4000,
+      "picture": "https://www.olivia-anapa-hotel.ru/wp-content/uploads/2017/12/177_750x500.jpg",
+      "type": "четырехместный",
+      "id": 12
+    },
+    {
+      "name": "Апартамент №13",
+      "description": "",
+      "price": 4000,
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFLyUxIPQfrmqoiIbHn5L_cwm8CxtT6-CXB5bwtA3fncgZLIAq44M3SN5DrrrRlIeH0k&usqp=CAU",
+      "type": "четырехместный",
+      "id": 13
+    },
+    {
+      "name": "Апартамент №14",
+      "description": "",
+      "price": 4000,
+      "picture": "https://www.baikalmoscow.ru/wp-content/uploads/2020/01/2063_roomtypes_637133164317252012.jpg",
+      "type": "четырехместный",
+      "id": 14
+    },
+    {
+      "name": "Апартамент №15",
+      "description": "",
+      "price": 4000,
+      "picture": "https://www.ghtiberio.com/wp-content/uploads/sites/357/2021/10/tiberio-grand-hotel-camera-quadrupla-1.jpg",
+      "type": "четырехместный",
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.container{
+    width: 100vw;
+    min-height:20vh ;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.containerItem{
+    width: 70vw;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+}
+.containerItemBtn{
+    width: 15vw;
+    min-height: 5vh;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+@media screen and (max-width:475px) {
+    
+    
+    .container{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:890px){
+    .containerItemBtn{
+        font-size: 0.5em;
+    }
+    
+}
+

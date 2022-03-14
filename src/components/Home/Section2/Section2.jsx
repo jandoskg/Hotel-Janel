@@ -14,7 +14,7 @@ const Section2 = () => {
                 <img className={style.containerItemImg} src={img1} alt="image of hotel" />
                 <div className={style.containerItemContent}>
                     <h3>JaneL</h3>
-                    <span >Гостевой дом  находится в 10 минатх от пляжа,в центре города Чолпон-Ата. Удобная развязка,крупные магазины и парки  в шаговой доступности! </span>
+                    <span >Гостевой дом  находится в 10 минутах от пляжа,в центре города Чолпон-Ата. Удобная развязка,крупные магазины и парки  в шаговой доступности! </span>
                     <button className={style.containerBtn}>Подробнее</button>
                 </div>
             </div>

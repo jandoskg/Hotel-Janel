@@ -47,7 +47,14 @@ h1{
     width: 20vw;
     height: 5vh;
     margin: 0 5vw;
+    cursor: pointer;
+    transition: 0.5s;
     
+}
+.headerBtn:hover{
+    background-color: black;
+    color: red;
+
 }
 @media screen and (max-width:830px){
     h1{
