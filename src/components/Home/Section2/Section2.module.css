@@ -1,0 +1,127 @@
+.container{
+    background-color: rgb(44, 43, 43);
+    width: 100vw;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 5vh 0;
+    
+}
+.containerItem{
+    max-width: 70vw ;
+    display: flex;
+    align-items: center;
+    
+    
+    
+
+
+}
+.containerItemImg{
+    position: relative;
+    max-width: 30vw;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:850px) {
+    .containerItemImg{
+    
+       display: none;
+    }
+    .containerItemContent{
+        min-width: 60vw;
+        
+        font-size: 15px;
+    }
+    .containerDec{
+        display: none;
+    }
+    
+    
+}
+.containerItemContent{
+    max-width: 30vw;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.1);
+}
+.containerItemContent h3{
+    color: rgb(156, 21, 21);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerItemContent span{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(232, 234, 236);
+}
+.containerDec{
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px;
+    min-width: 7vw;
+    border-radius: 3px;
+    border: none;
+}
+.containerImg{
+    margin-top: 7vh;
+    width: 65vw;
+    height: 55vh;
+    border-radius: 10px;
+    
+
+}
+.containerItemText{
+    border-radius: 10px;
+    max-width: 20vw;
+    min-height: 25vh;
+    top: 20vh;
+    left: 51vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(44, 43, 43);
+    background-color: white
+}
+.containerItemText span {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.containerItemText h4{
+    color: rgb(156, 21, 21);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:850px){
+    .containerImg{
+        display: none;
+    }
+    
+    .containerItemText{
+        max-width:50vw;
+        min-height: 28vh;
+    top: 9vh;
+    left: 25vw;
+    }
+
+    
+}
