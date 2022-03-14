@@ -97,16 +97,16 @@ const Navbar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.id} onClick={handleCloseNavMenu}>
+                <MenuItem key={page.id} onClick={handleCloseNavMenu} sx={{backgroundColor:"black"}}>
                     <Link to={page.link}>
-                  <Typography textAlign="center">{page.name}</Typography>
+                  <Typography sx={{color:"white"}} textAlign="center">{page.name}</Typography>
                   </Link>
                 </MenuItem>
               ))}
               {email == ADMIN ? (
-                <MenuItem>
+                <MenuItem sx={{backgroundColor:"black"}}>
                   <Link to="/admin">
-                    <Typography textAlign="center">Панель Админа </Typography>
+                    <Typography sx={{color:"white"}} textAlign="center">Панель Админа </Typography>
                   </Link>
                 </MenuItem>
               ) : null}
@@ -124,9 +124,10 @@ const Navbar = () => {
             {pages.map((page) => (
                 <Link to={page.link}>
               <Button
+              className={style.navbarItem}
                 key={page.id}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block',fontSize:10,fontStyle: 'italic' }}
+                sx={{ my: 2,mx:1, color: 'white', display: 'block',fontSize:10 }}
               >
                 {page.name}
               </Button>
@@ -136,7 +137,7 @@ const Navbar = () => {
             {email == ADMIN ? (
               <Link to="/admin">
                 <Button 
-                sx={{ my: 2, color: "white", display: "block", fontSize: 10,fontStyle: 'italic' }}
+                sx={{ my: 2, color: "white", display: "block", fontSize: 10 }}
                 >
                   Панель Админа
                 </Button>
@@ -148,8 +149,8 @@ const Navbar = () => {
             {email ? (
               <Link to="/">
                 <Button
-                  className="page-btn"
-                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10,fontStyle: 'italic' }}
+                  className={style.loginBtn}
+                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10 }}
                   onClick={handleLogout}
                 >
                   Выйти
@@ -160,8 +161,9 @@ const Navbar = () => {
             {email ? null : (
               <Link to="/auth">
                 <Button
+                className={style.loginBtn}
                   
-                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10,fontStyle: 'italic' }}
+                  sx={{ my: 2, color: 'white', display: 'block',fontSize:10 }}
                   onClick={handleLogout}
                 >
                   Войти

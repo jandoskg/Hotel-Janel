@@ -1,6 +1,25 @@
 .navbarLogo{
-    width: 10vw;
+    width: 12vw;
     height: 7vh;
     
     
 }
+.loginBtn{
+    width: 7vw;
+    height: 4vh;
+    background-color: rgb(29,29,29);
+    border: 1px solid red;
+    color: rgb(209, 0, 0);
+    transition: 0,5s;
+
+}
+.loginBtn:hover{
+    background-color: blue;
+    color: white;
+
+}
+.navbarItem{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
