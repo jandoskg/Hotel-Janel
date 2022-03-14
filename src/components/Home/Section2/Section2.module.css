@@ -76,6 +76,8 @@ button{
     min-width: 7vw;
     border-radius: 3px;
     border: none;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .containerImg{
     margin-top: 7vh;
@@ -124,4 +126,9 @@ button{
     }
 
     
+}
+.containerBtn:hover{
+    background-color: black;
+    color: red;
+
 }

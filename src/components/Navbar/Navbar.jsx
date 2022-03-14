@@ -13,6 +13,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logo from "../../assetcs/logo/JaneL.svg"
 import style from "../Navbar/Navbar.module.css"
+
 import { Link, useNavigate } from 'react-router-dom';
 import { ADMIN } from '../../helpers/const';
 import { useAuth } from '../../contexts/AuthContext';
@@ -61,8 +62,9 @@ const Navbar = () => {
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
             
           >
-              
-            <img className={style.navbarLogo} src={logo} alt="logo" />
+             
+            <img  className={style.navbarLogo} src={logo} alt="logo" />
+            
           </Typography>
           
           
@@ -118,13 +120,13 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <img className={style.navbarLogo} src={logo} alt="logo" />
+            <img onClick={()=>navigate("/")} className={style.navbarLogo} src={logo} alt="logo" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' },justifyContent:"center",marginLeft:"-20vw" }}>
             {pages.map((page) => (
                 <Link to={page.link}>
               <Button
-              className={style.navbarItem}
+                className={style.navbarItem}
                 key={page.id}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2,mx:1, color: 'white', display: 'block',fontSize:10 }}
@@ -137,6 +139,7 @@ const Navbar = () => {
             {email == ADMIN ? (
               <Link to="/admin">
                 <Button 
+                className={style.navbarItem}
                 sx={{ my: 2, color: "white", display: "block", fontSize: 10 }}
                 >
                   Панель Админа

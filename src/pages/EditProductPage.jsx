@@ -1,9 +1,10 @@
 import React from 'react';
+import EditProduct from '../components/products/EditProduct';
 
 const EditProductPage = () => {
     return (
         <div>
-            edit product page
+            <EditProduct/>
             
         </div>
     );
