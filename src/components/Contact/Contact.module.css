@@ -1,0 +1,33 @@
+
+.container{
+        width: 100vw;
+        min-height: 60vh;
+        
+        display: flex;
+        justify-content: space-around;
+        
+}
+
+
+.content{
+    margin: 10px;
+    padding: 20px;
+    width: 20vw;
+    height: 20vh;
+    color:white;
+    margin-top: 10vh;
+
+    
+  
+    background-color:black;
+
+}
+
+@media screen and (max-width:690px){
+    .map{
+        display: none;
+    }
+    .content{
+        width: 90vw;
+    }
+}

@@ -11,6 +11,7 @@ import EditProductPage from "./pages/EditProductPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
+import PaymentPage from "./pages/PaymentPage";
 import ProductDetailsPage from "./pages/ProductDetailsPage";
 import ProductsPage from "./pages/ProductsPage";
 
@@ -55,6 +56,11 @@ const MainRoutes = () => {
     {
       link: "*",
       element: <NotFoundPage />,
+      id: 8,
+    },
+    {
+      link: "/payment",
+      element: <PaymentPage />,
       id: 8,
     },
   ];

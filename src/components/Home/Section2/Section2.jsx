@@ -3,8 +3,10 @@ import style from "../Section2/Section2.module.css"
 import img1 from "../../../assetcs/section2/img1.jpeg"
 import img2 from "../../../assetcs/section2/img2.jpeg"
 import img3 from "../../../assetcs/section2/cafe.jpeg"
+import { useNavigate } from 'react-router-dom';
 
 const Section2 = () => {
+    const navigate=useNavigate()
     return (
         <>
         <div className={style.container}>
@@ -15,7 +17,7 @@ const Section2 = () => {
                 <div className={style.containerItemContent}>
                     <h3>JaneL</h3>
                     <span >Гостевой дом  находится в 10 минутах от пляжа,в центре города Чолпон-Ата. Удобная развязка,крупные магазины и парки  в шаговой доступности! </span>
-                    <button className={style.containerBtn}>Подробнее</button>
+                    <button onClick={()=>navigate("/aboutus")} className={style.containerBtn}>Подробнее</button>
                 </div>
             </div>
             

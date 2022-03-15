@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 
 import MenuItem from '@mui/material/MenuItem';
 import logo from "../../assetcs/logo/JaneL.svg"
-import styles from "../Navbar/Navbar.module.css"
+import styles from "./Navbar.module.css"
 
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { ADMIN } from '../../helpers/const';
