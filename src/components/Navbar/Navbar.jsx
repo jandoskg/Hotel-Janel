@@ -14,9 +14,13 @@ import MenuItem from '@mui/material/MenuItem';
 import logo from "../../assetcs/logo/JaneL.svg"
 import style from "../Navbar/Navbar.module.css"
 
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { ADMIN } from '../../helpers/const';
 import { useAuth } from '../../contexts/AuthContext';
+import { Input } from '@mui/material';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { useProducts } from '../../contexts/ProductContext';
 
 
 
@@ -47,6 +51,22 @@ const Navbar = () => {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
+
+
+  
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { getProducts } = useProducts();
+  const [search, setSearch] = useState(
+    searchParams.get("q") ? searchParams.get("q") : ""
+  );
+  useEffect(() => {
+    getProducts();
+  }, [searchParams]);
+  useEffect(() => {
+    setSearchParams({
+      q: search,
+    });
+  }, [search]);
 
   
 
@@ -147,6 +167,27 @@ const Navbar = () => {
               </Link>
             ) : null}
           </Box>
+
+
+          <Box>
+            <Input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            sx={{
+              fontFamily: "-apple-system",
+              borderRadius: 2,
+              width: "20vw",
+              border: 1,
+              marginRight:2,
+              color: "white",
+              borderColor: "white",
+              flexWrap: "wrap",
+            }}
+            placeholder="Поиск"
+          />
+         </Box>
+
+
 
           <Typography variant="h5">
             {email ? (
