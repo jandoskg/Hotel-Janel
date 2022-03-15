@@ -20,10 +20,10 @@ const Favorites = () => {
 
 
     return (
-        <div style={{ display: "flex",marginBottom:"60vh" }}>
+        <div style={{ display: "flex", flexWrap:"wrap", marginBottom:"60vh" }}>
          {cart.products.map((row) => (
           <div className={style.card_page} >
-           <Card sx={{width:"25vw"}} key={row.item.name}>
+           <Card sx={{minWidth:"25vw",minHeight:"30vh"}} key={row.item.name}>
             
             <CardMedia component="img" width="220" height="245" image={row.item.picture} />
             <CardContent>

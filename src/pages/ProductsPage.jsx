@@ -10,7 +10,7 @@ import ArrowCircleLeftSharpIcon from "@mui/icons-material/ArrowCircleLeftSharp";
 
 const ProductsPage = () => {
     const { products, getProducts } = useProducts();
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(0);
 
   const productPerPage = 6;
   const location = useLocation();

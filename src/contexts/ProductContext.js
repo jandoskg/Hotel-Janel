@@ -69,7 +69,8 @@ const ProductContextProvider = ({ children }) => {
     await axios.patch(`${JSON_API_PRODUCTS}/${newProduct.id}`, newProduct);
     getProducts();
   };
-  /////////
+  // !============= crud end======
+  //////////// filter start//////
   const fetchByParams = async (query, value) => {
     const search = new URLSearchParams(location.search);
     if (value === "all") {
@@ -81,7 +82,7 @@ const ProductContextProvider = ({ children }) => {
     navigate(url);
   };
 
-  ////////////
+  ///////// filter end/////////
 
   const getCart = () => {
     let cart = JSON.parse(localStorage.getItem("cart"));
