@@ -1,9 +1,11 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useProducts } from '../../contexts/ProductContext';
 import style from "../Favorites/Favorites.module.css"
 
 const Favorites = () => {
+  const navigate = useNavigate()
     const [count, setCount] = React.useState([]);
 
   const { cart, getCart, deleteCartProducts } =
@@ -38,10 +40,10 @@ const Favorites = () => {
           <CardActions>
             
             
-                <Button size="small" onClick={() => deleteCartProducts(row.item.id)}>
+                <Button sx={{color:"#d50000"}} size="small" onClick={() => deleteCartProducts(row.item.id)}>
                   Удалить
                 </Button>
-                <Button size="small" >Забронировать</Button>
+                <Button sx={{color:"#d50000"}} size="small" onClick={()=>navigate("/payment")} >Забронировать</Button>
                 
                 
              
