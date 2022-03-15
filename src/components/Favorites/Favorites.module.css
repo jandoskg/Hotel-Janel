@@ -1,0 +1,7 @@
+.card_page {
+    margin-left: 5vw;
+    margin-top: 10px;
+    transition: 1s;
+    
+    flex-wrap: wrap;
+  }

@@ -12,12 +12,12 @@ import Button from '@mui/material/Button';
 
 import MenuItem from '@mui/material/MenuItem';
 import logo from "../../assetcs/logo/JaneL.svg"
-import style from "../Navbar/Navbar.module.css"
+import styles from "../Navbar/Navbar.module.css"
 
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { ADMIN } from '../../helpers/const';
 import { useAuth } from '../../contexts/AuthContext';
-import { Input } from '@mui/material';
+import { Badge, Input } from '@mui/material';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useProducts } from '../../contexts/ProductContext';
@@ -52,7 +52,8 @@ const Navbar = () => {
     setAnchorElNav(null);
   };
 
-
+  const { cart } = useProducts();
+  
   
   const [searchParams, setSearchParams] = useSearchParams();
   const { getProducts } = useProducts();
@@ -83,7 +84,7 @@ const Navbar = () => {
             
           >
              
-            <img  className={style.navbarLogo} src={logo} alt="logo" />
+            <img  className={styles.navbarLogo} src={logo} alt="logo" />
             
           </Typography>
           
@@ -132,6 +133,23 @@ const Navbar = () => {
                   </Link>
                 </MenuItem>
               ) : null}
+
+           {email == ADMIN ? (null) : (
+              <Link to="/favorite">
+                <Button 
+                  
+                  sx={{ backgroundColor:"black",width:"18vw",  color: 'white',fontSize:"13px" }}>
+                  <Badge
+                    badgeContent={cart?.products ? cart.products.length : 0}
+                    color="secondary"
+                  >
+                   Избранное
+                  </Badge>
+                </Button>
+              </Link>
+            )}
+
+              
             </Menu>
           </Box >
           <Typography
@@ -140,13 +158,13 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <img onClick={()=>navigate("/")} className={style.navbarLogo} src={logo} alt="logo" />
+            <img onClick={()=>navigate("/")} className={styles.navbarLogo} src={logo} alt="logo" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' },justifyContent:"center",marginLeft:"-20vw" }}>
             {pages.map((page) => (
                 <Link to={page.link}>
               <Button
-                className={style.navbarItem}
+                className={styles.navbarItem}
                 key={page.id}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2,mx:1, color: 'white', display: 'block',fontSize:10 }}
@@ -159,13 +177,29 @@ const Navbar = () => {
             {email == ADMIN ? (
               <Link to="/admin">
                 <Button 
-                className={style.navbarItem}
+                className={styles.navbarItem}
                 sx={{ my: 2, color: "white", display: "block", fontSize: 10 }}
                 >
                   Панель Админа
                 </Button>
               </Link>
             ) : null}
+
+
+            {email == ADMIN ? (null) : (
+              <Link to="/favorite">
+                <Button 
+                  className={styles.navbarItem}
+                  sx={{ my: 2, color: 'white',fontSize:10 }}>
+                  <Badge
+                    badgeContent={cart?.products ? cart.products.length : 0}
+                    color="secondary"
+                  >
+                   Избранное
+                  </Badge>
+                </Button>
+              </Link>
+            )}
           </Box>
 
 
@@ -193,7 +227,7 @@ const Navbar = () => {
             {email ? (
               <Link to="/">
                 <Button
-                  className={style.loginBtn}
+                  className={styles.loginBtn}
                   sx={{ my: 2, color: 'white', display: 'block',fontSize:10 }}
                   onClick={handleLogout}
                 >
@@ -205,7 +239,7 @@ const Navbar = () => {
             {email ? null : (
               <Link to="/auth">
                 <Button
-                className={style.loginBtn}
+                 className={styles.loginBtn}
                   
                   sx={{ my: 2, color: 'white', display: 'block',fontSize:10 }}
                   onClick={handleLogout}

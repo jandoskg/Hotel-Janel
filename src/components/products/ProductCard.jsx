@@ -17,7 +17,7 @@ import style from "../products/style/Product.module.css";
 import { IconButton } from "@mui/material";
 
 export default function MediaCard({ item }) {
-  const { deleteProduct,addProductToCart } = useProducts();
+  const { deleteProduct,addProductToCart,checkProductInCart } = useProducts();
   const navigate = useNavigate();
 
   const {
@@ -54,7 +54,7 @@ export default function MediaCard({ item }) {
               <FavoriteIcon
 
 
-                // color={checkProductInCart(item.id) ? "secondary" : ""}
+                color={checkProductInCart(item.id) ? "secondary" : ""}
 
 
               />
