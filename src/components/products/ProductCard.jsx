@@ -48,20 +48,23 @@ export default function MediaCard({ item }) {
               <Button size="small" onClick={() => navigate(`/edit/${item.id}`)}>
                 Изменить
               </Button>
+
             </>
           ) : (
-            <IconButton onClick={() => addProductToCart(item)}>
+            <>
+             <IconButton onClick={() => addProductToCart(item)}>
               <FavoriteIcon
-
-
                 color={checkProductInCart(item.id) ? "secondary" : ""}
-
-
               />
-            </IconButton>
+             </IconButton>
+             <Button onClick={()=>navigate("/payment")} size="small" sx={{color:"#d50000"}}>
+                Забронировать
+              </Button>
+            </>
+            
           )}
 
-          <Button size="small" onClick={() => navigate(`/products/${item.id}`)}>
+          <Button sx={{color:"#d50000"}} size="small" onClick={() => navigate(`/products/${item.id}`)}>
             О товаре
           </Button>
         </CardActions>

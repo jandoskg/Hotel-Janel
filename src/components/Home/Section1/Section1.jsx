@@ -4,8 +4,10 @@ import img1 from "../../../assetcs/rooms/2mest.jpeg"
 import img2 from "../../../assetcs/rooms/3mest.jpeg"
 import img3 from "../../../assetcs/rooms/4mest.jpeg"
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const Section1 = () => {
+  const navigate=useNavigate()
     return (
         
             <div className={style.container}>
@@ -26,7 +28,7 @@ const Section1 = () => {
                 </CardContent>
                 </CardActionArea>
                 <CardActions sx={{justifyContent:"center"}}>
-                <Button sx={{color:"#212121"}} size="small" color="primary">
+                <Button onClick={()=>navigate("/payment")} sx={{color:"#212121"}} size="small" color="primary">
                 Забронировать
                 </Button>
                 </CardActions>
@@ -49,7 +51,7 @@ const Section1 = () => {
                 </CardContent>
                 </CardActionArea>
                 <CardActions sx={{justifyContent:"center"}}>
-                <Button  size="small" color="primary">
+                <Button onClick={()=>navigate("/payment")} size="small" sx={{color:"#d50000"}}>
                 Забронировать
                 </Button>
                 </CardActions>
@@ -72,7 +74,7 @@ const Section1 = () => {
                 </CardContent>
                 </CardActionArea>
                 <CardActions sx={{justifyContent:"center"}}>
-                <Button sx={{color:"#212121"}} size="small" color="primary">
+                <Button onClick={()=>navigate("/payment")} sx={{color:"#212121"}} size="small" color="primary">
                  Забронировать
                 </Button>
                 </CardActions>

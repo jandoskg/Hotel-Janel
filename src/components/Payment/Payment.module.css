@@ -1,0 +1,22 @@
+.containers {
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: 95%;
+    min-height: 60%;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .logo {
+    margin-left: 25vw;
+    color: rgb(212, 10, 10);
+  }
+  
+  .h2Text {
+    color: black;
+    margin-left: 30vw;
+  }
+  .btncard {
+    margin-top: 2vw !important;
+    margin-left: 30vw !important;
+    margin-bottom: 5vw !important;
+  }

@@ -1,0 +1,38 @@
+.detailsWrap {
+    display: flex;
+    justify-content: space-around;
+  }
+  .detailsList {
+    margin-top: 25vh;
+    color: black;
+    text-align: center;
+  }
+  .detailSpan {
+    color: red;
+    font-size: 28px;
+  }
+  .detailImg {
+    margin-left: 2.5vw;
+    width: 40vw;
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+  }
+  .containerBtn{
+    margin-top: 20px;
+    padding: 5px;
+    min-width: 7vw;
+    border-radius: 3px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    .detailImg {
+      margin-left: 22vw;
+      width: 60vw;
+    }
+    .detailsList {
+      margin-top: 40vh;
+      margin-left: -80vw;
+    }
+  }
