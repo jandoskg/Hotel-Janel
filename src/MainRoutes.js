@@ -5,9 +5,10 @@ import { ADMIN } from "./helpers/const";
 import AboutUsPage from "./pages/AboutUsPage";
 import AdminPage from "./pages/AdminPage";
 import AuthPage from "./pages/AuthPage";
-import CartPage from "./pages/CartPage";
+
 import ContactUsPage from "./pages/ContactUsPage";
 import EditProductPage from "./pages/EditProductPage";
+import FavoritesPage from "./pages/FavoritesPage";
 import HomePage from "./pages/HomePage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProductDetailsPage from "./pages/ProductDetailsPage";
@@ -42,8 +43,8 @@ const MainRoutes = () => {
       id: 5,
     },
     {
-      link: "/cart",
-      element: <CartPage />,
+      link: "/favorite",
+      element: <FavoritesPage />,
       id: 6,
     },
     {
