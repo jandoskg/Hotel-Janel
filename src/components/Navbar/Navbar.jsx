@@ -29,6 +29,7 @@ const pages = [
     { name: "Апартаменты", link: "/products", id: 4 },
     { name: "О Нас", link: "/aboutus", id: 3 },
     { name: "Контакты", link: "/contacts", id: 7 },
+    { name: "Отзывы", link: "/comments", id: 10 }
     
   ];
 
