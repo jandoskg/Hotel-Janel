@@ -15,6 +15,7 @@ const Comments = () => {
     return (
         <div className={style.container}>
             <div className={style.containerItem}>
+                <center><h3>Отзывы</h3></center>
                 <Grid container>
                     {comments ? (comments.map((item)=>(
                         <Grid item>

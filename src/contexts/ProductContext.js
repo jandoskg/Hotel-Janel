@@ -69,6 +69,7 @@ const ProductContextProvider = ({ children }) => {
     await axios.patch(`${JSON_API_PRODUCTS}/${newProduct.id}`, newProduct);
     getProducts();
   };
+
   // !============= crud end======
   //////////// filter start//////
   const fetchByParams = async (query, value) => {
@@ -191,6 +192,7 @@ const ProductContextProvider = ({ children }) => {
     deleteProduct,
     getProductDetails,
     saveEditedProduct,
+
     products: state.products,
     productDetails: state.productDetails,
 
