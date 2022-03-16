@@ -14,6 +14,7 @@ const AddProduct = () => {
     price: 0,
     picture: "",
     type: "",
+    comment:[],
   });
 
   const handleInp = (e) => {

@@ -6,11 +6,32 @@
     display: block;
     width: 50vw;
     height: 50vh;
-    background-color: aqua;
+    background-color: white;
 
 }
 .AddComments{
     padding-left:40px ;
     width: 50vw;
     height: 50%;
+}
+.containerComment{
+    margin: 2px;
+    width: 50vw;
+    max-height: 10vh;
+    border:2px solid red
+    
+}
+.ContentComment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ContentComment h3{
+    padding: 5px;
+    border-right: 1px solid black;
+}
+.ContentComment button{
+    color: red;
+    background-color: black;
+    margin-top: 0px;
 }

@@ -1,16 +1,34 @@
-import React, { useEffect } from 'react';
+
+import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useProducts } from '../../contexts/ProductContext';
 import style from "../products/style/ProductDetails.module.css"
 
+
 const ProductDetails = () => {
+  
+
+  
     const navigate=useNavigate()
     const { id } = useParams();
-  const { getProductDetails, productDetails } = useProducts();
+  const { getProductDetails, productDetails} = useProducts();
+
+ 
+
+  useEffect(() => {
+    getProductDetails(id);
+  }, []);
+
+  
 
   useEffect(() => {
     getProductDetails(id);
   }, [id]);
+
+  
+
+  
+  
 
   return (
     <div className={style.detailsWrap}>
@@ -31,9 +49,16 @@ const ProductDetails = () => {
           <span className={style.detailSpan}>Описание - </span>
           {productDetails.description}
         </h3>
+        
+         
         <button onClick={()=>navigate("/payment")} className={style.containerBtn}>Забронировать</button>
+        
 
       </div>
+      
+      
+
+      
     </div>
   );
 };

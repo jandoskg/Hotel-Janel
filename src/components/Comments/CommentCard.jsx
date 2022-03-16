@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useComments } from '../../contexts/CommentContext';
 import { useAuth } from "../../contexts/AuthContext";
 
+import style from "../Comments/Comments.module.css"
+
+
 const CommentCard = ({item}) => {
     const {deleteComment}=useComments()
     const navigate=useNavigate();
@@ -11,14 +14,18 @@ const CommentCard = ({item}) => {
       } = useAuth();
     
     return (
-        <div >
-            <center><h3>Отзывы</h3></center>
+        
+        
+        <div className={style.containerComment}>
+        <div className={style.ContentComment} >
+            
             <h3>Имя: {item.userName}</h3>
-            <h5>{item.body}</h5>
+            <p> {item.body}</p>
             <button onClick={() => deleteComment(item.id)}>удалить</button>
 
 
             
+        </div>
         </div>
     );
 };
