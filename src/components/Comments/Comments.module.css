@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+.containerItem{
+    display: block;
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+
+}
+.AddComments{
+    padding-left:40px ;
+    width: 50vw;
+    height: 50%;
+}

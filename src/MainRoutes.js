@@ -5,6 +5,7 @@ import { ADMIN } from "./helpers/const";
 import AboutUsPage from "./pages/AboutUsPage";
 import AdminPage from "./pages/AdminPage";
 import AuthPage from "./pages/AuthPage";
+import CommentsPage from "./pages/CommentsPage";
 
 import ContactUsPage from "./pages/ContactUsPage";
 import EditProductPage from "./pages/EditProductPage";
@@ -61,7 +62,12 @@ const MainRoutes = () => {
     {
       link: "/payment",
       element: <PaymentPage />,
-      id: 8,
+      id: 9,
+    },
+    {
+      link: "/comments",
+      element: <CommentsPage />,
+      id: 10,
     },
   ];
 
